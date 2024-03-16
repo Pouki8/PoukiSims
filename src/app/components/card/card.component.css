@@ -1,0 +1,22 @@
+img {
+    max-width: 60%;
+    margin-top: 25px;
+}
+
+h1 {
+    color: rgb(111, 0, 255);
+}
+
+.container-img-monde {
+    text-align: center;
+    height: 15rem;
+}
+
+.card {
+    size: 100%;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    margin-bottom: 20px;
+}

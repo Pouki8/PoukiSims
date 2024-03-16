@@ -1,0 +1,13 @@
+.container-mondes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    padding-top: 25px;
+}
+
+.one-monde {
+    width: 25%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}

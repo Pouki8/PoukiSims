@@ -1,0 +1,27 @@
+<div class="card" *ngFor="let monde of mondeRecupere">
+    <div class="container-img-monde">
+        <img src="{{monde.icon}}" class="card-img-top" alt="{{monde.ville}}">
+    </div>
+
+    <div class="card-body">
+        <h5 class="card-title text-truncate">{{ monde.ville }}</h5>
+        <p class="card-text">{{ monde.pack }}</p>
+        <p>nombre d'habitant : {{ getHabitantsParMonde(monde) }}</p>
+        <a href="#" class="btn btn-success">Aller ici !</a>
+
+        <!-- <div *ngFor="let quartier of monde.quartier">
+            <h2>{{ quartier.nomQuartier }}</h2>
+
+        <div *ngIf="adresse.sims.length > 0; else personne">
+                        <div *ngFor="let sims of adresse.sims">
+                            <p>{{ sims.name }}</p>
+                        </div>
+                    </div>
+                    <ng-template #personne>
+                        <p>Personne ne vit ici.</p>
+                    </ng-template>
+                </div>
+    </div> -->
+
+    </div>
+</div>

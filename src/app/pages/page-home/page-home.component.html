@@ -1,8 +1,10 @@
-<div class="container">
-    <h1 class="title">Pouki8</h1>
-    <div class="container-mondes">
-        <ul>
-            <li *ngFor="let monde of mondeToDisplay">{{ monde.ville }}</li>
-        </ul>
+<div class="d-flex">
+
+    <div class="container">
+        <div class="container-mondes">
+
+            <app-card class="one-monde" [mondeRecupere]="mondeToDisplay"></app-card>
+
+        </div>
     </div>
 </div>

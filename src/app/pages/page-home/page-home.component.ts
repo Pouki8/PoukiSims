@@ -13,8 +13,8 @@ export class PageHomeComponent implements OnInit {
   constructor(private mondeService: MondeService) { }
 
   ngOnInit(): void {
-    this.mondeService.getMonde().subscribe((mondes) => {
-      this.mondeToDisplay = mondes;
+    this.mondeService.getMonde().subscribe((data) => {
+      this.mondeToDisplay = data;
       console.log(this.mondeToDisplay);
     })
   }
